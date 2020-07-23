@@ -17,6 +17,7 @@
 <body>
     <div id="header"></div>
     <div id="jumbotron"></div>
+    <div id="elementRandom"></div>
     <div id="footer"></div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -28,6 +29,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+
     <!-- Jquery script to load html pages-->
     <script>
         window.addEventListener("load", function (event) {
@@ -35,9 +37,11 @@
                 $('#header').load("header.html");
                 $('#jumbotron').load("jumbotron.html");
                 $('#footer').load("footer.html");
+                $('#elementRandom').load("elementRandom.html");
             });
         })
     </script>
+
 </body>
 
 </html>
