@@ -16,6 +16,7 @@
 
 <body>
     <div id="header"></div>
+    <div id="jumbotron"></div>
     <div id="footer"></div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -32,6 +33,8 @@
         window.addEventListener("load", function (event) {
             $(document).ready(function () {
                 $('#header').load("header.html");
+                $('#jumbotron').load("jumbotron.html");
+                $('#footer').load("footer.html");
             });
         })
     </script>
